@@ -2,7 +2,7 @@
 Using keyboard input, the program plays musical notes that mimic the sound of guitar strings using a ring buffer and the Karplus-Strong algorithm. 
 
 ## Motivation 
-Desire to better understand how to design and use a ring buffer made of a priority queue. 
+Desire to better understand how to design and use a ring buffer.
 
 ## Ring Buffers to Mimic Guitar Strings 
 The ring buffer data structure allows us to mimick guitar strings using the Karplus-Strong algorithm. It averages the frequencies of the vibrations when the guitar string is plucked and multiplies it by an energy decay factor to model how a guitar string's vibrations dissipate over time after being plucked.
