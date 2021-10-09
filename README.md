@@ -5,7 +5,7 @@ Using keyboard input, the program plays musical notes that mimic the sound of gu
 Desire to better understand how to design and use a ring buffer made of a priority queue. 
 
 ## Ring Buffers to Mimic Guitar Strings 
-The ring buffer data structure allows us to mimick guitar strings using the Karplus-Strong algorithm. It averages the frequencies of the vibrations when the guitar string is plucked
+The ring buffer data structure allows us to mimick guitar strings using the Karplus-Strong algorithm. It averages the frequencies of the vibrations when the guitar string is plucked and multiplies it by an energy decay factor to model how a guitar string's vibrations dissipate over time after being plucked.
 
 ### Ring Buffer 
 The ring buffer object is the implementation of Queue as a ring buffer. It has two pointers that keep track of the index for the next dequeue or peek and the index for the next enqueue in the ring buffer. When an element is enqueued and the queue has reached the last index, the index for enqueuing loops back to index 0. When an element is dequeued, the index of dequeueing loops back to index 0. 
