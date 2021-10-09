@@ -10,6 +10,10 @@ The ring buffer data structure allows us to mimick guitar strings using the Karp
 ### Ring Buffer 
 The RingBuffer object is the implementation of Queue as a ring buffer. It has two pointers that keep track of the index for the next dequeue or peek and the index for the next enqueue in the ring buffer. When an element is enqueued and the queue has reached the last index, the index for enqueuing loops back to index 0. When an element is dequeued, the index of dequeueing loops back to index 0. 
 
+<img width="907" alt="image" src="https://user-images.githubusercontent.com/83928244/136636469-dc78058b-36d2-4a7b-9a17-a5af0d2d2e4e.png">
+
+<img width="693" alt="image" src="https://user-images.githubusercontent.com/83928244/136636489-629b064e-c936-4c9a-99da-0e154c53b8c4.png">
+
 ### Guitar String
 
 A GuitarString object models the behavior of a guitar string using a ring buffer.
